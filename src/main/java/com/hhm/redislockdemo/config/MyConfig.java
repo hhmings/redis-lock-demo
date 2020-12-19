@@ -27,4 +27,5 @@ public class MyConfig {
         RedisLock redisLock = new RedisLock(sentinelRedissonConfig());
         return redisLock;
     }
+
 }
